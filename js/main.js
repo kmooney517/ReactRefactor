@@ -20,6 +20,3 @@ todos.fetch().then(function() {
   $('.wrapper').html(new TodoView(todos).render().$el);
 
 });
-
-
-console.log('Hello, World');

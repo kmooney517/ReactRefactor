@@ -1,3 +1,7 @@
+import React from 'react';
+import ReactDom from 'react-dom';
+
+
 // Obviously we are using jquery
 import $ from 'jquery';
 
@@ -14,8 +18,10 @@ import 'jquery-serializejson';
  *
  */
 
+
+
 function template(model) {
-  // check of the model is complete
+  // check if the model is complete
   let complete = model.isComplete();
   
   // show a different icon based on if model is complete
